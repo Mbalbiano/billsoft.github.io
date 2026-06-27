@@ -1,0 +1,17 @@
+Miembros del equipo y sus respectivos roles:
+
+Ekes Valentino: Frontend Developer, UX Researcher, UI Designer 
+Su responsabilidad es la de desarrollar la pagina web, ayudar con el diseño de la misma y pensar que es lo que puede necesitar el cliente para que le sea mas sencillo el uso de la pagina y tenga un motivo para utilizarla.
+
+Balbiano Francesco: Frontend Developer, UX Researcher
+Desarrollo de la pagina web y desarrollo de elementos de la pagina que podrian servirle a los usuarios para utilizarla de manera eficiente.
+
+Tantardini Capo Agustin: QA/Documentation, UI Designer
+Encargado de la documentacion de todo lo realizado durante el trabajo y diseñador de los estilos y colores que utiliza el sitio web.
+
+Reflexion sobre aporte tecnico, dificultades superadas y aprendizajes del proceso colaborativo
+Ekes Valentino:
+
+Balbiano Francesco:
+
+Tantardini Capo Agustin:
