@@ -13,7 +13,7 @@
 /* ── GOOGLE FONTS ── */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
 
-/* -- VARIABLES GLOBALES -- */
+/* -- VARIABLES GLOBALES (como en algoritmia) -- */
 :root {
   --bs-primary:    #2C3E50;
   --bs-body-bg:    #ECF0F1;
@@ -35,9 +35,8 @@
 
   --section-py:   5rem;
 
-  /* Tablas */
-  --table-primary-table-color: var(--color-accent);
 }
+
 
 /* -- TIPOGRAFIA -- */
 body {
