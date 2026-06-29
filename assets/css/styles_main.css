@@ -438,6 +438,22 @@ p, span, a, li, label, small, .card-text, .accordion-body {
   }
 }
 
+/* Nav Ingreso Gasto /  */
+.avatar-usr {
+  width: 40px;
+  height: 40px;
+  border: 0.15rem solid var(--color-accent);
+}
+
+.nombre-usr {
+  color: var(--color-secondary);
+  font-weight: 600;
+}
+
+.usr:hover {
+  color: var(--color-accent);
+}
+
 /* -- ANIMACIONES -- */
 /* Libreria usada: "Animate.css" (https://github.com/animate-css/animate.css), 
    ademas de css pelado */
