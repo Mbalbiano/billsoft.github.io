@@ -468,35 +468,31 @@ p, span, a, li, label, small, .card-text, .accordion-body {
 }
 
 .alquiler {
-  background-color: grey;
+  background-color: #9f327b;
 }
 
 .comida {
-  background-color: grey;
-}
-
-.calzado {
-  background-color: grey;
+  background-color: #ff7f1f;
 }
 
 .ropa {
-  background-color: grey;
+  background-color: #008374;
 }
 
 .vehiculo {
- background-color: grey; 
+ background-color: #f34235; 
 }
 
 .suscripciones {
-  background-color: grey;
+  background-color: #ffde3f;
 }
 
 .seguros {
-  background-color: grey;
+  background-color: #127bdc;
 }
 
 .otros {
-  background-color: grey;
+  background-color: #3c3c3c;
 }
 
 /* -- ANIMACIONES -- */
