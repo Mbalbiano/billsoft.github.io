@@ -207,6 +207,16 @@ p, span, a, li, label, small, .card-text, .accordion-body {
   box-shadow: var(--shadow-card);
 }
 
+.about-card {
+  background: linear-gradient(135deg, #fcf8e7 0%, #f7efd1 100%);
+  border: 1px solid rgba(212, 175, 55, 0.28);
+  box-shadow: 0 4px 16px rgba(44, 62, 80, 0.06);
+}
+
+.about-card h3 {
+  color: #8c7522;
+}
+
 .icono-pasos {
   width: 52px;
   height: 52px;
