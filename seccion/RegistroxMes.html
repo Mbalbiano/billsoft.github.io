@@ -31,29 +31,38 @@
     </div>
   </nav>
   <main>
-<section class="container text-center mt-5">
+<section class="container my-6 pb-6 pt-2">
   <div class="table-responsive shadow-sm rounded border">
-    <table class="table table-striped align-middle mb-0">
-      <thead class="table-dark"> <tr class="Meses">
+    <table class="table table-striped-rows table-hover align-middle m-0">
+      <thead class="tabla-gasto"> <tr class="Meses">
           <th scope="col" style="width: 50px;"></th> <th scope="col">Mes Anterior</th> <th scope="col">Mes Actual</th>   </tr>
       </thead>
       <tbody>
         <tr class="Gasto">
-          <th scope="row" class="text-muted">$</th>
+          <th scope="row" class="text-muted text-center">$</th>
           <td class="fw-medium">900.000 $</td>
           <td class="fw-bold ">800.000 $</td> </tr>
       </tbody>
       <tbody>
         <tr class="Gasto">
-          <th scope="row" class="text-muted">%</th>
+          <th scope="row" class="text-muted text-center">%</th>
           <td class="fw-medium">50%</td>
           <td class="fw-bold ">-11,11%</td> </tr>
       </tbody>
       <tbody>
         <tr class="Gasto">
           <th scope="row" class="text-muted">Clasificacion</th>
-          <td class="fw-medium" style="background-color: rgb(255, 204, 0);">Debes mejorar para el proximo mes</td>
-          <td class="fw-bold" style="background-color: green;">Estas mejorando</td> </tr>
+          
+          <td class="fw-medium">
+            <span class="badge text-bg-warning rounded-pill px-3 py-2 text-dark border border-warning-subtle">Debes mejorar para el proximo mes <i class="bi bi-exclamation-triangle ms-1"></i></span>
+          </td>
+          
+          <!-- Usamos text-bg-success para el fondo verde -->
+          <td class="fw-bold">
+            <span class="badge text-bg-success rounded-pill px-3 py-2 text-white border border-success-subtle">Estas mejorando <i class="bi bi-check-lg ms-1"></i></span>
+          </td> 
+          
+        </tr>
       </tbody>
     </table>
   </div>
