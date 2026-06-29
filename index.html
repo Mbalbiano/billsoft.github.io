@@ -1,561 +1,558 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inicio | Billsoft</title>
 
   <!-- Bootstrap 5 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <!-- CSS Custom -->
   <link rel="stylesheet" href="assets/css/styles_main.css">
 </head>
+
 <body>
 
-<!-- ===================== NAVBAR ===================== -->
-<nav class="navbar navbar-expand-lg navbar-dark bs-navbar fixed-top shadow py-1" aria-label="Navegación principal">
-  <div class="container-fluid">
+  <!-- ===================== NAVBAR ===================== -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bs-navbar fixed-top shadow py-1" aria-label="Navegación principal">
+      <div class="container-fluid">
 
-    <a class="navbar-brand d-flex align-items-center gap-2 py-2" href="#">
-      <img src="assets/img/index/logo.svg" alt="Logo Billsoft" width="40" height="40">
-      <span class="fw-bold fs-5 navbar-brand-text">Billsoft</span>
-    </a>
+        <a class="navbar-brand d-flex align-items-center gap-2 py-2" href="#">
+          <img src="assets/img/index/logo.svg" alt="Logo Billsoft" width="40" height="40">
+          <span class="fw-bold fs-5 navbar-brand-text">Billsoft</span>
+        </a>
 
-    <button class="navbar-toggler border-0" type="button"
-            data-bs-toggle="collapse" data-bs-target="#navbarMain"
-            aria-controls="navbarMain" aria-expanded="false" aria-label="Abrir menú de navegación">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
+          aria-controls="navbarMain" aria-expanded="false" aria-label="Abrir menú de navegación">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse" id="navbarMain">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-1">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Sobre nosotros</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button"
-             data-bs-toggle="dropdown" aria-expanded="false">
-            Documentación
-          </a>
-          <ul class="dropdown-menu dropdown-menu-dark shadow border-0">
-            <li><a class="dropdown-item" href="#">Doc 1</a></li>
-            <li><a class="dropdown-item" href="#">Doc 2</a></li>
-            <li><hr class="dropdown-divider opacity-25"></li>
-            <li><a class="dropdown-item" href="#">Créditos</a></li>
-          </ul>
-        </li>
-      </ul>
-
-      <div class="d-flex align-items-center gap-2 py-3 py-lg-0">
-        <a class="btn btn-accent px-4" href="seccion/registro.html" target="_blank">Regístrate gratis</a>
-        <a class="btn btn-outline-light btn-sm px-3" href="seccion/login.html" target="_blank">Iniciar sesión</a>
-      </div>
-    </div>
-
-  </div>
-</nav>
-
-<main>
-
-  <!-- ===================== HERO ===================== -->
-  <section id="inicio" class="hero-section" aria-labelledby="hero-titulo">
-    <div class="container-xxl">
-      <div class="row align-items-center flex-lg-row flex-column-reverse min-vh-100 pt-5">
-
-        <!-- Texto -->
-        <div class="col-12 col-lg-6 py-5 text-center text-lg-start">
-          <span class="hero-pill d-inline-block mb-3">
-            <i class="bi bi-bar-chart-line-fill me-2"></i>Gestión financiera inteligente
-          </span>
-          <h1 id="hero-titulo" class="hero-title mb-4">
-            Controla tus gastos<br>con <em class="text-accent">elegancia</em>
-          </h1>
-          <p class="hero-subtitle mx-auto mb-5">
-            Registra, categoriza y visualiza cada movimiento en segundos.
-            Billsoft transforma tus finanzas en información clara y accionable.
-          </p>
-
-          <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
-            <a href="seccion/IngresoGasto.html" class="btn btn-accent btn-lg px-5 py-3" target=blank_>
-              <i class="bi bi-play-circle me-2"></i>Abrir demo
-            </a>
-            <a href="seccion/registro.html" class="btn btn-outline-light btn-lg px-5 py-3"target=blank_>
-              Regístrate gratis
-            </a>
-          </div>
-        </div>
-
-        <!-- Logo / Imagen hero -->
-        <div class="col-10 col-sm-7 col-lg-5 mx-auto pt-5 d-flex justify-content-center">
-          <img class="img-fluid hero-logo-img " src="assets/img/index/logo.svg" alt="logo de Billsoft">
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== 3 PASOS ===================== -->
-  <section id="3_simples_pasos" class="section-light py-6" aria-labelledby="pasos-titulo">
-    <div class="container-xxl">
-
-      <div class="row justify-content-center mb-5">
-        <div class="col-12 col-md-8 text-center">
-          <h2 id="pasos-titulo" class="section-title">Controla tus finanzas en 3 simples pasos</h2>
-          <p class="section-subtitle">Sin complicaciones, sin tecnicismos. Solo claridad financiera.</p>
-        </div>
-      </div>
-
-      <div class="row g-4 justify-content-center">
-
-        <!-- Paso 1 -->
-        <div class="col-12 col-sm-6 col-lg-4">
-          <article class="card card-pasos h-100">
-            <div class="card-body p-4">
-              <div class="icono-pasos mb-3">
-                <i class="bi bi-pencil-square"></i>
-              </div>
-              <h3 class="card-title h5 mb-3">Registra al instante</h3>
-              <hr class="card-divider my-3">
-              <p class="card-text text-muted">
-                Olvídate de perder el rastro de esos pequeños gastos diarios como el café o el transporte.
-                Anota cualquier movimiento en segundos, desde cualquier dispositivo.
-              </p>
-            </div>
-          </article>
-        </div>
-
-        <!-- Paso 2 -->
-        <div class="col-12 col-sm-6 col-lg-4">
-          <article class="card card-pasos h-100">
-            <div class="card-body p-4">
-              <div class="icono-pasos mb-3">
-                <i class="bi bi-tags-fill"></i>
-              </div>
-              <h3 class="card-title h5 mb-3">Categoriza sin esfuerzo</h3>
-              <hr class="card-divider my-3">
-              <p class="card-text text-muted">
-                Clasifica tus gastos por categorías para identificar tus hábitos de consumo
-                y organizar tus ingresos con total claridad.
-              </p>
-            </div>
-          </article>
-        </div>
-
-        <!-- Paso 3 -->
-        <div class="col-12 col-sm-6 col-lg-4">
-          <article class="card card-pasos h-100">
-            <div class="card-body p-4">
-              <div class="icono-pasos mb-3">
-                <i class="bi bi-graph-up-arrow"></i>
-              </div>
-              <h3 class="card-title h5 mb-3">Toma el control</h3>
-              <hr class="card-divider my-3">
-              <p class="card-text text-muted">
-                Visualiza tus gastos con una tabla simple e intuitiva.
-                Descubre cuánto gastaste, cuánto te queda y toma decisiones con confianza.
-              </p>
-            </div>
-          </article>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== ¿POR QUÉ BILLSOFT? ===================== -->
-  <section id="porque_billsoft" class="section-white py-6" aria-labelledby="porque-titulo">
-    <div class="container-xxl">
-      <div class="row align-items-center g-5">
-
-        <!-- Imagen -->
-        <div class="col-12 col-lg-5">
-          <div>
-            <img class="img-fluid rounded-3 shadow" src="assets/img/index/porque_bs.jpg"
-                 alt="Persona gestionando sus finanzas con Billsoft">
-          </div>
-        </div>
-
-        <!-- Contenido -->
-        <div class="col-12 col-lg-7">
-          <h2 id="porque-titulo" class="section-title mb-2">¿Por qué Billsoft?</h2>
-          <p class="lead fw-normal text-muted mb-4">
-            Una manera más inteligente de manejar tu dinero.
-          </p>
-          <p class="mb-5">
-            Combinamos tecnología de vanguardia con un diseño centrado en el usuario para transformar
-            la forma en que gestionas tu empresa, permitiéndote tomar decisiones financieras con
-            total confianza y claridad.
-          </p>
-
-          <ul class="feature-list list-unstyled d-flex flex-column gap-4">
-            <li class="feature-item d-flex gap-3 align-items-start">
-              <div class="feature-icon flex-shrink-0">
-                <i class="bi bi-shield-lock-fill"></i>
-              </div>
-              <div>
-                <h4 class="h6 fw-bold mb-1">Seguridad y Confianza</h4>
-                <p class="text-muted mb-0">Protegemos tu información con los más altos estándares,
-                  garantizando que cada registro esté resguardado con la máxima privacidad.</p>
-              </div>
+        <div class="collapse navbar-collapse" id="navbarMain">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-1">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
             </li>
-            <li class="feature-item d-flex gap-3 align-items-start">
-              <div class="feature-icon flex-shrink-0">
-                <i class="bi bi-layout-text-window-reverse"></i>
-              </div>
-              <div>
-                <h4 class="h6 fw-bold mb-1">Enfoque en la Simplicidad</h4>
-                <p class="text-muted mb-0">Eliminamos la complejidad de las herramientas financieras
-                  tradicionales, ofreciendo una experiencia limpia que se adapta a tu ritmo de trabajo.</p>
-              </div>
+            <li class="nav-item">
+              <a class="nav-link" href="seccion/SobreNosotros.html">Sobre nosotros</a>
             </li>
-            <li class="feature-item d-flex gap-3 align-items-start">
-              <div class="feature-icon flex-shrink-0">
-                <i class="bi bi-headset"></i>
-              </div>
-              <div>
-                <h4 class="h6 fw-bold mb-1">Soporte Dedicado</h4>
-                <p class="text-muted mb-0">Nuestro equipo está disponible para guiarte en cada etapa
-                  y asegurar que saques el mayor provecho a la plataforma.</p>
-              </div>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Documentación
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark shadow border-0">
+                <li><a class="dropdown-item" href="#">Doc 1</a></li>
+                <li><a class="dropdown-item" href="#">Doc 2</a></li>
+                <li>
+                  <hr class="dropdown-divider opacity-25">
+                </li>
+                <li><a class="dropdown-item" href="#">Créditos</a></li>
+              </ul>
             </li>
           </ul>
-        </div>
 
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== ESTADÍSTICAS ===================== -->
-  <section id="estadisticas" class="stats-section py-5" aria-label="Estadísticas de Billsoft">
-    <div class="container-xxl">
-      <div class="row g-0 text-center text-white">
-
-        <!-- Stat 1 -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="stat-item border-end">
-            <i class="bi bi-people-fill stat-icon mb-2"></i>
-            <h3 class="stat-number">+10.000</h3>
-            <p class="stat-label mb-0">Usuarios activos</p>
-          </div>
-        </div>
-
-        <!-- Stat 2 -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="stat-item border-end stat-mid">
-            <i class="bi bi-clock-history stat-icon mb-2"></i>
-            <h3 class="stat-number">24/7</h3>
-            <p class="stat-label mb-0">Disponibilidad</p>
-          </div>
-        </div>
-
-        <!-- Stat 3 -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="stat-item border-end">
-            <i class="bi bi-shield-fill-check stat-icon mb-2"></i>
-            <h3 class="stat-number">100%</h3>
-            <p class="stat-label mb-0">Seguridad garantizada</p>
-          </div>
-        </div>
-
-        <!-- Stat 4 -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="stat-item border-bottom-0">
-            <i class="bi bi-speedometer stat-icon mb-2"></i>
-            <h3 class="stat-number">300%</h3>
-            <p class="stat-label mb-0">Más rápido que el papel</p>
+          <div class="d-flex align-items-center gap-2 py-3 py-lg-0">
+            <a class="btn btn-accent px-4" href="seccion/registro.html" target="_blank">Regístrate gratis</a>
+            <a class="btn btn-outline-light btn-sm px-3" href="seccion/login.html" target="_blank">Iniciar sesión</a>
           </div>
         </div>
 
       </div>
-    </div>
-  </section>
+    </nav>
+  </header>
+  <main>
 
-  <!-- ===================== RESEÑAS ===================== -->
-  <section id="reseñas" class="section-light py-6" aria-labelledby="resenas-titulo">
-    <div class="container-xxl">
+    <!-- ===================== HERO ===================== -->
+    <section id="inicio" class="hero-section" aria-labelledby="hero-titulo">
+      <div class="container-xxl">
+        <div class="row align-items-center flex-lg-row flex-column-reverse min-vh-100 pt-5">
 
-      <div class="row mb-5">
-        <div class="col-12 text-center">
-          <h2 id="resenas-titulo" class="section-title">Lo que dicen nuestros usuarios</h2>
-          <p class="section-subtitle">Opiniones reales de personas que ya controlan sus finanzas.</p>
+          <!-- Texto -->
+          <div class="col-12 col-lg-6 py-5 text-center text-lg-start">
+            <span class="hero-pill d-inline-block mb-3">
+              <i class="bi bi-bar-chart-line-fill me-2"></i>Gestión financiera inteligente
+            </span>
+            <h1 id="hero-titulo" class="hero-title mb-4">
+              Controla tus gastos<br>con <em class="text-accent">elegancia</em>
+            </h1>
+            <p class="hero-subtitle mx-auto mb-5">
+              Registra, categoriza y visualiza cada movimiento en segundos.
+              Billsoft transforma tus finanzas en información clara y accionable.
+            </p>
+
+            <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
+              <a href="seccion/IngresoGasto.html" class="btn btn-accent btn-lg px-5 py-3" target=blank_>
+                <i class="bi bi-play-circle me-2"></i>Abrir demo
+              </a>
+              <a href="seccion/registro.html" class="btn btn-outline-light btn-lg px-5 py-3" target=blank_>
+                Regístrate gratis
+              </a>
+            </div>
+          </div>
+
+          <!-- Logo / Imagen hero -->
+          <div class="col-10 col-sm-7 col-lg-5 mx-auto pt-5 d-flex justify-content-center">
+            <img class="img-fluid hero-logo-img " src="assets/img/index/logo.svg" alt="logo de Billsoft">
+          </div>
+
         </div>
       </div>
+    </section>
 
-      <div class="row g-4 justify-content-center">
+    <!-- ===================== 3 PASOS ===================== -->
+    <section id="3_simples_pasos" class="section-light py-6" aria-labelledby="pasos-titulo">
+      <div class="container-xxl">
 
-        <!-- Reseña 1 -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <article class="card card-review h-100">
-            <header class="card-header-review d-flex align-items-center gap-3 p-4 pb-0">
-              <img class="review-avatar rounded-circle flex-shrink-0"
-                   src="assets/img/index/reviews/juan_perez.avif"
-                   alt="Foto de perfil de Juan Pérez" width="52" height="52">
-              <div>
-                <h3 class="h6 fw-bold mb-0">Juan Pérez</h3>
-                <div class="star-rating" aria-label="5 de 5 estrellas">
-                  <i class="bi bi-star-fill" aria-hidden="true"></i>
-                  <i class="bi bi-star-fill" aria-hidden="true"></i>
-                  <i class="bi bi-star-fill" aria-hidden="true"></i>
-                  <i class="bi bi-star-fill" aria-hidden="true"></i>
-                  <i class="bi bi-star-fill" aria-hidden="true"></i>
+        <div class="row justify-content-center mb-5">
+          <div class="col-12 col-md-8 text-center">
+            <h2 id="pasos-titulo" class="section-title">Controla tus finanzas en 3 simples pasos</h2>
+            <p class="section-subtitle">Sin complicaciones, sin tecnicismos. Solo claridad financiera.</p>
+          </div>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+
+          <!-- Paso 1 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <article class="card card-pasos h-100">
+              <div class="card-body p-4">
+                <div class="icono-pasos mb-3">
+                  <i class="bi bi-pencil-square"></i>
+                </div>
+                <h3 class="card-title h5 mb-3">Registra al instante</h3>
+                <hr class="card-divider my-3">
+                <p class="card-text text-muted">
+                  Olvídate de perder el rastro de esos pequeños gastos diarios como el café o el transporte.
+                  Anota cualquier movimiento en segundos, desde cualquier dispositivo.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <!-- Paso 2 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <article class="card card-pasos h-100">
+              <div class="card-body p-4">
+                <div class="icono-pasos mb-3">
+                  <i class="bi bi-tags-fill"></i>
+                </div>
+                <h3 class="card-title h5 mb-3">Categoriza sin esfuerzo</h3>
+                <hr class="card-divider my-3">
+                <p class="card-text text-muted">
+                  Clasifica tus gastos por categorías para identificar tus hábitos de consumo
+                  y organizar tus ingresos con total claridad.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <!-- Paso 3 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <article class="card card-pasos h-100">
+              <div class="card-body p-4">
+                <div class="icono-pasos mb-3">
+                  <i class="bi bi-graph-up-arrow"></i>
+                </div>
+                <h3 class="card-title h5 mb-3">Toma el control</h3>
+                <hr class="card-divider my-3">
+                <p class="card-text text-muted">
+                  Visualiza tus gastos con una tabla simple e intuitiva.
+                  Descubre cuánto gastaste, cuánto te queda y toma decisiones con confianza.
+                </p>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ¿POR QUÉ BILLSOFT? ===================== -->
+    <section id="porque_billsoft" class="section-white py-6" aria-labelledby="porque-titulo">
+      <div class="container-xxl">
+        <div class="row align-items-center g-5">
+
+          <!-- Imagen -->
+          <div class="col-12 col-lg-5">
+            <div>
+              <img class="img-fluid rounded-3 shadow" src="assets/img/index/porque_bs.jpg"
+                alt="Persona gestionando sus finanzas con Billsoft">
+            </div>
+          </div>
+
+          <!-- Contenido -->
+          <div class="col-12 col-lg-7">
+            <h2 id="porque-titulo" class="section-title mb-2">¿Por qué Billsoft?</h2>
+            <p class="lead fw-normal text-muted mb-4">
+              Una manera más inteligente de manejar tu dinero.
+            </p>
+            <p class="mb-5">
+              Combinamos tecnología de vanguardia con un diseño centrado en el usuario para transformar
+              la forma en que gestionas tu empresa, permitiéndote tomar decisiones financieras con
+              total confianza y claridad.
+            </p>
+
+            <ul class="feature-list list-unstyled d-flex flex-column gap-4">
+              <li class="feature-item d-flex gap-3 align-items-start">
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-shield-lock-fill"></i>
+                </div>
+                <div>
+                  <h4 class="h6 fw-bold mb-1">Seguridad y Confianza</h4>
+                  <p class="text-muted mb-0">Protegemos tu información con los más altos estándares,
+                    garantizando que cada registro esté resguardado con la máxima privacidad.</p>
+                </div>
+              </li>
+              <li class="feature-item d-flex gap-3 align-items-start">
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-layout-text-window-reverse"></i>
+                </div>
+                <div>
+                  <h4 class="h6 fw-bold mb-1">Enfoque en la Simplicidad</h4>
+                  <p class="text-muted mb-0">Eliminamos la complejidad de las herramientas financieras
+                    tradicionales, ofreciendo una experiencia limpia que se adapta a tu ritmo de trabajo.</p>
+                </div>
+              </li>
+              <li class="feature-item d-flex gap-3 align-items-start">
+                <div class="feature-icon flex-shrink-0">
+                  <i class="bi bi-headset"></i>
+                </div>
+                <div>
+                  <h4 class="h6 fw-bold mb-1">Soporte Dedicado</h4>
+                  <p class="text-muted mb-0">Nuestro equipo está disponible para guiarte en cada etapa
+                    y asegurar que saques el mayor provecho a la plataforma.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ESTADÍSTICAS ===================== -->
+    <section id="estadisticas" class="stats-section py-5" aria-label="Estadísticas de Billsoft">
+      <div class="container-xxl">
+        <div class="row g-0 text-center text-white">
+
+          <!-- Stat 1 -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="stat-item border-end">
+              <i class="bi bi-people-fill stat-icon mb-2"></i>
+              <h3 class="stat-number">+10.000</h3>
+              <p class="stat-label mb-0">Usuarios activos</p>
+            </div>
+          </div>
+
+          <!-- Stat 2 -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="stat-item border-end stat-mid">
+              <i class="bi bi-clock-history stat-icon mb-2"></i>
+              <h3 class="stat-number">24/7</h3>
+              <p class="stat-label mb-0">Disponibilidad</p>
+            </div>
+          </div>
+
+          <!-- Stat 3 -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="stat-item border-end">
+              <i class="bi bi-shield-fill-check stat-icon mb-2"></i>
+              <h3 class="stat-number">100%</h3>
+              <p class="stat-label mb-0">Seguridad garantizada</p>
+            </div>
+          </div>
+
+          <!-- Stat 4 -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="stat-item border-bottom-0">
+              <i class="bi bi-speedometer stat-icon mb-2"></i>
+              <h3 class="stat-number">300%</h3>
+              <p class="stat-label mb-0">Más rápido que el papel</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== RESEÑAS ===================== -->
+    <section id="reseñas" class="section-light py-6" aria-labelledby="resenas-titulo">
+      <div class="container-xxl">
+
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 id="resenas-titulo" class="section-title">Lo que dicen nuestros usuarios</h2>
+            <p class="section-subtitle">Opiniones reales de personas que ya controlan sus finanzas.</p>
+          </div>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+
+          <!-- Reseña 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card card-review h-100">
+              <header class="card-header-review d-flex align-items-center gap-3 p-4 pb-0">
+                <img class="review-avatar rounded-circle flex-shrink-0" src="assets/img/index/reviews/juan_perez.avif"
+                  alt="Foto de perfil de Juan Pérez" width="52" height="52">
+                <div>
+                  <h3 class="h6 fw-bold mb-0">Juan Pérez</h3>
+                  <div class="star-rating" aria-label="5 de 5 estrellas">
+                    <i class="bi bi-star-fill" aria-hidden="true"></i>
+                    <i class="bi bi-star-fill" aria-hidden="true"></i>
+                    <i class="bi bi-star-fill" aria-hidden="true"></i>
+                    <i class="bi bi-star-fill" aria-hidden="true"></i>
+                    <i class="bi bi-star-fill" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </header>
+              <div class="card-body p-4">
+                <h4 class="h6 fw-semibold mb-2">Excelente servicio</h4>
+                <p class="card-text text-muted">
+                  Esta página me simplificó la vida. En pocos minutos puedo ver todo lo que gasté
+                  en el mes sin perder tiempo en planillas o cálculos. Es súper intuitiva y perfecta
+                  para quienes necesitan algo rápido y claro.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <!-- Reseña 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card card-review h-100">
+              <header class="card-header-review d-flex align-items-center gap-3 p-4 pb-0">
+                <img class="review-avatar rounded-circle flex-shrink-0"
+                  src="assets/img/index/reviews/guillermo_franchella.avif" alt="Foto de perfil de Guillermo Franchella"
+                  width="52" height="52">
+                <div>
+                  <h3 class="h6 fw-bold mb-0">Guillermo Franchella</h3>
+                  <div class="star-rating" aria-label="5 de 5 estrellas">
+                    <i class="bi bi-star-fill" aria-hidden="true"></i>
+                    <i class="bi bi-star-fill" aria-hidden="true"></i>
+                    <i class="bi bi-star-fill" aria-hidden="true"></i>
+                    <i class="bi bi-star-fill" aria-hidden="true"></i>
+                    <i class="bi bi-star-fill" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </header>
+              <div class="card-body p-4">
+                <h4 class="h6 fw-semibold mb-2">Claridad total</h4>
+                <p class="card-text text-muted">
+                  Nunca pensé que gestionar mis gastos podría ser tan simple. Billsoft me permite
+                  tener todo ordenado sin esfuerzo. La categorización automática es lo mejor.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <!-- Reseña 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card card-review h-100">
+              <header class="card-header-review d-flex align-items-center gap-3 p-4 pb-0">
+                <img class="review-avatar rounded-circle flex-shrink-0"
+                  src="assets/img/index/reviews/ricardo_darin.avif" alt="Foto de perfil de Ricardo Darín" width="52"
+                  height="52">
+                <div>
+                  <h3 class="h6 fw-bold mb-0">Ricardo Darín</h3>
+                  <div class="star-rating" aria-label="5 de 5 estrellas">
+                    <i class="bi bi-star-fill" aria-hidden="true"></i>
+                    <i class="bi bi-star-fill" aria-hidden="true"></i>
+                    <i class="bi bi-star-fill" aria-hidden="true"></i>
+                    <i class="bi bi-star-fill" aria-hidden="true"></i>
+                    <i class="bi bi-star-fill" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </header>
+              <div class="card-body p-4">
+                <h4 class="h6 fw-semibold mb-2">Recomendado al 100%</h4>
+                <p class="card-text text-muted">
+                  Esta página me simplificó la vida. En pocos minutos puedo ver todo lo que gasté
+                  en el mes sin perder tiempo en planillas o cálculos. Es súper intuitiva y perfecta
+                  para quienes trabajan mucho y necesitan algo rápido y claro.
+                </p>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== Call 2 action / INDECISO ===================== -->
+    <section id="indeciso" class="c2a-section py-5" aria-labelledby="cta-titulo">
+      <div class="container-xxl">
+        <div class="row align-items-center gy-4">
+
+          <div class="col-12 col-lg-8 text-center text-lg-start">
+            <h2 id="c2a-titulo" class="c2a-title mb-2">¿Aún no te decides?</h2>
+            <p class="c2a-subtitle mb-0">
+              Prueba la versión de demostración, totalmente gratis y sin necesidad de registrarte.
+            </p>
+          </div>
+
+          <div class="col-12 col-lg-4 d-flex justify-content-center justify-content-lg-end">
+            <a class="btn btn-c2a-light btn-lg px-5 py-3" href="seccion/IngresoGasto.html">
+              <i class="bi bi-play-circle-fill me-2"></i>Demo gratuita
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section id="faq" class="section-white py-6" aria-labelledby="faq-titulo">
+      <div class="container-xxl">
+
+        <div class="row mb-5">
+          <div class="col-12 col-md-8">
+            <h2 id="faq-titulo" class="section-title">Preguntas frecuentes</h2>
+            <p class="section-subtitle">Todo lo que necesitás saber antes de empezar.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-9">
+            <div class="accordion accordion-flush faq-accordion" id="faqAccordion">
+
+              <!-- Pregunta 1 -->
+              <div class="accordion-item faq-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed faq-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+                    ¿Qué es Billsoft?
+                  </button>
+                </h3>
+                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body faq-body">
+                    Billsoft es una aplicación sencilla de seguimiento de gastos diseñada para ayudarte
+                    a gestionar tus finanzas personales de manera fácil y sin complicaciones.
+                  </div>
                 </div>
               </div>
-            </header>
-            <div class="card-body p-4">
-              <h4 class="h6 fw-semibold mb-2">Excelente servicio</h4>
-              <p class="card-text text-muted">
-                Esta página me simplificó la vida. En pocos minutos puedo ver todo lo que gasté
-                en el mes sin perder tiempo en planillas o cálculos. Es súper intuitiva y perfecta
-                para quienes necesitan algo rápido y claro.
-              </p>
-            </div>
-          </article>
-        </div>
 
-        <!-- Reseña 2 -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <article class="card card-review h-100">
-            <header class="card-header-review d-flex align-items-center gap-3 p-4 pb-0">
-              <img class="review-avatar rounded-circle flex-shrink-0"
-                   src="assets/img/index/reviews/guillermo_franchella.avif"
-                   alt="Foto de perfil de Guillermo Franchella" width="52" height="52">
-              <div>
-                <h3 class="h6 fw-bold mb-0">Guillermo Franchella</h3>
-                <div class="star-rating" aria-label="5 de 5 estrellas">
-                  <i class="bi bi-star-fill" aria-hidden="true"></i>
-                  <i class="bi bi-star-fill" aria-hidden="true"></i>
-                  <i class="bi bi-star-fill" aria-hidden="true"></i>
-                  <i class="bi bi-star-fill" aria-hidden="true"></i>
-                  <i class="bi bi-star-fill" aria-hidden="true"></i>
+              <!-- Pregunta 2 -->
+              <div class="accordion-item faq-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed faq-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                    ¿Qué hace a Billsoft diferente de otras aplicaciones?
+                  </button>
+                </h3>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body faq-body">
+                    A diferencia de otras opciones que pueden resultar abrumadoras, Billsoft ofrece una
+                    experiencia minimalista y sencilla. Nos enfocamos en el registro rápido y la visualización
+                    clara, eliminando distracciones innecesarias.
+                  </div>
                 </div>
               </div>
-            </header>
-            <div class="card-body p-4">
-              <h4 class="h6 fw-semibold mb-2">Claridad total</h4>
-              <p class="card-text text-muted">
-                Nunca pensé que gestionar mis gastos podría ser tan simple. Billsoft me permite
-                tener todo ordenado sin esfuerzo. La categorización automática es lo mejor.
-              </p>
-            </div>
-          </article>
-        </div>
 
-        <!-- Reseña 3 -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <article class="card card-review h-100">
-            <header class="card-header-review d-flex align-items-center gap-3 p-4 pb-0">
-              <img class="review-avatar rounded-circle flex-shrink-0"
-                   src="assets/img/index/reviews/ricardo_darin.avif"
-                   alt="Foto de perfil de Ricardo Darín" width="52" height="52">
-              <div>
-                <h3 class="h6 fw-bold mb-0">Ricardo Darín</h3>
-                <div class="star-rating" aria-label="5 de 5 estrellas">
-                  <i class="bi bi-star-fill" aria-hidden="true"></i>
-                  <i class="bi bi-star-fill" aria-hidden="true"></i>
-                  <i class="bi bi-star-fill" aria-hidden="true"></i>
-                  <i class="bi bi-star-fill" aria-hidden="true"></i>
-                  <i class="bi bi-star-fill" aria-hidden="true"></i>
+              <!-- Pregunta 3 -->
+              <div class="accordion-item faq-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed faq-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                    ¿Es fácil de usar para personas sin experiencia técnica?
+                  </button>
+                </h3>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body faq-body">
+                    Absolutamente. Billsoft fue diseñada con foco en la facilidad de uso. Detectamos que
+                    muchos usuarios abandonan otras apps por sus interfaces confusas, por eso la nuestra
+                    es limpia, con funcionalidad sencilla y navegación intuitiva.
+                  </div>
                 </div>
               </div>
-            </header>
-            <div class="card-body p-4">
-              <h4 class="h6 fw-semibold mb-2">Recomendado al 100%</h4>
-              <p class="card-text text-muted">
-                Esta página me simplificó la vida. En pocos minutos puedo ver todo lo que gasté
-                en el mes sin perder tiempo en planillas o cálculos. Es súper intuitiva y perfecta
-                para quienes trabajan mucho y necesitan algo rápido y claro.
-              </p>
+
+              <!-- Pregunta 4 -->
+              <div class="accordion-item faq-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed faq-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                    ¿Qué información necesito para registrarme?
+                  </button>
+                </h3>
+                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body faq-body">
+                    Solo necesitás completar un formulario con tu nombre, apellido, correo electrónico
+                    y contraseña. Si ya tenés cuenta, podés acceder rápidamente con tu correo y contraseña.
+                  </div>
+                </div>
+              </div>
+
             </div>
-          </article>
+          </div>
         </div>
 
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===================== Call 2 action / INDECISO ===================== -->
-  <section id="indeciso" class="c2a-section py-5" aria-labelledby="cta-titulo">
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer py-5" aria-label="Pie de página">
     <div class="container-xxl">
-      <div class="row align-items-center gy-4">
+      <div class="row gy-4 align-items-start">
 
-        <div class="col-12 col-lg-8 text-center text-lg-start">
-          <h2 id="c2a-titulo" class="c2a-title mb-2">¿Aún no te decides?</h2>
-          <p class="c2a-subtitle mb-0">
-            Prueba la versión de demostración, totalmente gratis y sin necesidad de registrarte.
+        <div class="col-12 col-md-6">
+          <h4 class="fw-bold footer-brand mb-1">Billsoft</h4>
+          <p class="footer-tagline mb-3">Controla tus gastos con elegancia.</p>
+          <p class="footer-credits opacity-75 small mb-1">
+            Grupo 6 — Licenciatura en Gestión de Tecnología de la Información
+          </p>
+          <p class="footer-credits opacity-75 small">
+            Balbiano Francesco · Ekes Valentino · Tantardini Agustín
           </p>
         </div>
 
-        <div class="col-12 col-lg-4 d-flex justify-content-center justify-content-lg-end">
-          <a class="btn btn-c2a-light btn-lg px-5 py-3" href="seccion/IngresoGasto.html">
-            <i class="bi bi-play-circle-fill me-2"></i>Demo gratuita
-          </a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== FAQ ===================== -->
-  <section id="faq" class="section-white py-6" aria-labelledby="faq-titulo">
-    <div class="container-xxl">
-
-      <div class="row mb-5">
-        <div class="col-12 col-md-8">
-          <h2 id="faq-titulo" class="section-title">Preguntas frecuentes</h2>
-          <p class="section-subtitle">Todo lo que necesitás saber antes de empezar.</p>
-        </div>
-      </div>
-
-      <div class="row justify-content-center">
-        <div class="col-12 col-lg-9">
-          <div class="accordion accordion-flush faq-accordion" id="faqAccordion">
-
-            <!-- Pregunta 1 -->
-            <div class="accordion-item faq-item">
-              <h3 class="accordion-header">
-                <button class="accordion-button collapsed faq-button" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#faq1"
-                        aria-expanded="false" aria-controls="faq1">
-                  ¿Qué es Billsoft?
-                </button>
-              </h3>
-              <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body faq-body">
-                  Billsoft es una aplicación sencilla de seguimiento de gastos diseñada para ayudarte
-                  a gestionar tus finanzas personales de manera fácil y sin complicaciones.
-                </div>
-              </div>
-            </div>
-
-            <!-- Pregunta 2 -->
-            <div class="accordion-item faq-item">
-              <h3 class="accordion-header">
-                <button class="accordion-button collapsed faq-button" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#faq2"
-                        aria-expanded="false" aria-controls="faq2">
-                  ¿Qué hace a Billsoft diferente de otras aplicaciones?
-                </button>
-              </h3>
-              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body faq-body">
-                  A diferencia de otras opciones que pueden resultar abrumadoras, Billsoft ofrece una
-                  experiencia minimalista y sencilla. Nos enfocamos en el registro rápido y la visualización
-                  clara, eliminando distracciones innecesarias.
-                </div>
-              </div>
-            </div>
-
-            <!-- Pregunta 3 -->
-            <div class="accordion-item faq-item">
-              <h3 class="accordion-header">
-                <button class="accordion-button collapsed faq-button" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#faq3"
-                        aria-expanded="false" aria-controls="faq3">
-                  ¿Es fácil de usar para personas sin experiencia técnica?
-                </button>
-              </h3>
-              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body faq-body">
-                  Absolutamente. Billsoft fue diseñada con foco en la facilidad de uso. Detectamos que
-                  muchos usuarios abandonan otras apps por sus interfaces confusas, por eso la nuestra
-                  es limpia, con funcionalidad sencilla y navegación intuitiva.
-                </div>
-              </div>
-            </div>
-
-            <!-- Pregunta 4 -->
-            <div class="accordion-item faq-item">
-              <h3 class="accordion-header">
-                <button class="accordion-button collapsed faq-button" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#faq4"
-                        aria-expanded="false" aria-controls="faq4">
-                  ¿Qué información necesito para registrarme?
-                </button>
-              </h3>
-              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body faq-body">
-                  Solo necesitás completar un formulario con tu nombre, apellido, correo electrónico
-                  y contraseña. Si ya tenés cuenta, podés acceder rápidamente con tu correo y contraseña.
-                </div>
-              </div>
-            </div>
-
+        <div class="col-12 col-md-6 d-flex flex-column align-items-md-end">
+          <p class="small opacity-75 mb-2">Seguinos en</p>
+          <div class="d-flex gap-2">
+            <a href="https://github.com/Mbalbiano/billsoft.github.io" class="footer-icon-btn" target="_blank"
+              rel="noopener noreferrer" aria-label="GitHub (abre en nueva pestaña)">
+              <i class="bi bi-github" aria-hidden="true"></i>
+            </a>
+            <a href="https://getbootstrap.com/" class="footer-icon-btn" target="_blank" rel="noopener noreferrer"
+              aria-label="Bootstrap (abre en nueva pestaña)">
+              <i class="bi bi-bootstrap-fill" aria-hidden="true"></i>
+            </a>
+            <a href="https://animate.style/" class="footer-icon-btn" target="_blank" rel="noopener noreferrer"
+              aria-label="Animate.css (abre en nueva pestaña)">
+              <i class="bi bi-diamond-fill" aria-hidden="true"></i>
+            </a>
           </div>
         </div>
+
       </div>
 
-    </div>
-  </section>
+      <hr class="footer-divider my-4">
 
-</main>
-
-<!-- ===================== FOOTER ===================== -->
-<footer class="site-footer py-5" aria-label="Pie de página">
-  <div class="container-xxl">
-    <div class="row gy-4 align-items-start">
-
-      <div class="col-12 col-md-6">
-        <h4 class="fw-bold footer-brand mb-1">Billsoft</h4>
-        <p class="footer-tagline mb-3">Controla tus gastos con elegancia.</p>
-        <p class="footer-credits opacity-75 small mb-1">
-          Grupo 6 — Licenciatura en Gestión de Tecnología de la Información
-        </p>
-        <p class="footer-credits opacity-75 small">
-          Balbiano Francesco · Ekes Valentino · Tantardini Agustín
-        </p>
-      </div>
-
-      <div class="col-12 col-md-6 d-flex flex-column align-items-md-end">
-        <p class="small opacity-75 mb-2">Seguinos en</p>
-        <div class="d-flex gap-2">
-          <a href="https://github.com/Mbalbiano/billsoft.github.io"
-             class="footer-icon-btn"
-             target="_blank" rel="noopener noreferrer"
-             aria-label="GitHub (abre en nueva pestaña)">
-            <i class="bi bi-github" aria-hidden="true"></i>
-          </a>
-          <a href="https://getbootstrap.com/"
-             class="footer-icon-btn"
-             target="_blank" rel="noopener noreferrer"
-             aria-label="Bootstrap (abre en nueva pestaña)">
-            <i class="bi bi-bootstrap-fill" aria-hidden="true"></i>
-          </a>
-          <a href="https://animate.style/"
-             class="footer-icon-btn"
-             target="_blank" rel="noopener noreferrer"
-             aria-label="Animate.css (abre en nueva pestaña)">
-            <i class="bi bi-diamond-fill" aria-hidden="true"></i>
-          </a>
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 text-center text-md-start mb-2 mb-md-0">
+          <p class="small opacity-75 mb-0">© 2025 Billsoft. Todos los derechos reservados.</p>
+        </div>
+        <div class="col-12 col-md-6 text-center text-md-end">
+          <small class="opacity-75">
+            Construido con
+            <a href="https://getbootstrap.com" class="footer-link" target="_blank" rel="noopener noreferrer">Bootstrap
+              5</a>
+            y
+            <a href="https://bootswatch.com/lux/" class="footer-link" target="_blank" rel="noopener noreferrer">Lux
+              Theme</a>
+          </small>
         </div>
       </div>
 
     </div>
+  </footer>
 
-    <hr class="footer-divider my-4">
-
-    <div class="row align-items-center">
-      <div class="col-12 col-md-6 text-center text-md-start mb-2 mb-md-0">
-        <p class="small opacity-75 mb-0">© 2025 Billsoft. Todos los derechos reservados.</p>
-      </div>
-      <div class="col-12 col-md-6 text-center text-md-end">
-        <small class="opacity-75">
-          Construido con
-          <a href="https://getbootstrap.com" class="footer-link" target="_blank" rel="noopener noreferrer">Bootstrap 5</a>
-          y
-          <a href="https://bootswatch.com/lux/" class="footer-link" target="_blank" rel="noopener noreferrer">Lux Theme</a>
-        </small>
-      </div>
-    </div>
-
-  </div>
-</footer>
-
-<!-- Bootstrap Bundle JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
