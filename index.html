@@ -13,7 +13,7 @@
 <body>
 
 <!-- ===================== NAVBAR ===================== -->
-<nav class="navbar navbar-expand-lg navbar-dark bs-navbar fixed-top shadow-sm py-0" aria-label="Navegación principal">
+<nav class="navbar navbar-expand-lg navbar-dark bs-navbar fixed-top shadow py-1" aria-label="Navegación principal">
   <div class="container-fluid px-5">
 
     <a class="navbar-brand d-flex align-items-center gap-2 py-2" href="#">
@@ -50,8 +50,8 @@
       </ul>
 
       <div class="d-flex align-items-center gap-2 py-3 py-lg-0">
-        <a class="btn btn-accent px-4" href="seccion/registro.html">Regístrate gratis</a>
-        <a class="btn btn-outline-light btn-sm px-3" href="seccion/login.html">Iniciar sesión</a>
+        <a class="btn btn-accent px-4" href="seccion/registro.html" target="_blank">Regístrate gratis</a>
+        <a class="btn btn-outline-light btn-sm px-3" href="seccion/login.html" target="_blank">Iniciar sesión</a>
       </div>
     </div>
 
@@ -67,16 +67,17 @@
 
         <!-- Texto -->
         <div class="col-12 col-lg-6 py-5 text-center text-lg-start">
-          <span class="hero-eyebrow d-inline-block mb-3">
+          <span class="hero-pill d-inline-block mb-3">
             <i class="bi bi-bar-chart-line-fill me-2"></i>Gestión financiera inteligente
           </span>
           <h1 id="hero-titulo" class="hero-title mb-4">
             Controla tus gastos<br>con <em class="text-accent">elegancia</em>
           </h1>
-          <p class="hero-subtitle mb-5">
+          <p class="hero-subtitle mx-auto mb-5">
             Registra, categoriza y visualiza cada movimiento en segundos.
             Billsoft transforma tus finanzas en información clara y accionable.
           </p>
+
           <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
             <a href="seccion/IngresoGasto.html" class="btn btn-accent btn-lg px-5 py-3">
               <i class="bi bi-play-circle me-2"></i>Abrir demo
@@ -88,7 +89,7 @@
         </div>
 
         <!-- Logo / Imagen hero -->
-        <div class="col-10 col-sm-7 col-lg-5 mx-auto mx-lg-0 ms-lg-auto py-5">
+        <div class="col-10 col-sm-7 col-lg-5 mx-auto pt-5 d-flex justify-content-center">
           <img class="img-fluid hero-logo-img " src="assets/img/index/logo.svg" alt="logo de Billsoft">
         </div>
 
@@ -111,9 +112,9 @@
 
         <!-- Paso 1 -->
         <div class="col-12 col-sm-6 col-lg-4">
-          <article class="card card-premium h-100">
+          <article class="card card-pasos h-100">
             <div class="card-body p-4">
-              <div class="step-icon mb-3">
+              <div class="icono-pasos mb-3">
                 <i class="bi bi-pencil-square"></i>
               </div>
               <h3 class="card-title h5 mb-3">Registra al instante</h3>
@@ -128,9 +129,9 @@
 
         <!-- Paso 2 -->
         <div class="col-12 col-sm-6 col-lg-4">
-          <article class="card card-premium h-100">
+          <article class="card card-pasos h-100">
             <div class="card-body p-4">
-              <div class="step-icon mb-3">
+              <div class="icono-pasos mb-3">
                 <i class="bi bi-tags-fill"></i>
               </div>
               <h3 class="card-title h5 mb-3">Categoriza sin esfuerzo</h3>
@@ -145,9 +146,9 @@
 
         <!-- Paso 3 -->
         <div class="col-12 col-sm-6 col-lg-4">
-          <article class="card card-premium h-100">
+          <article class="card card-pasos h-100">
             <div class="card-body p-4">
-              <div class="step-icon mb-3">
+              <div class="icono-pasos mb-3">
                 <i class="bi bi-graph-up-arrow"></i>
               </div>
               <h3 class="card-title h5 mb-3">Toma el control</h3>
@@ -171,7 +172,7 @@
 
         <!-- Imagen -->
         <div class="col-12 col-lg-5">
-          <div class="porque-img-wrap">
+          <div>
             <img class="img-fluid rounded-3 shadow" src="assets/img/index/porque_bs.jpg"
                  alt="Persona gestionando sus finanzas con Billsoft">
           </div>
@@ -234,7 +235,7 @@
 
         <!-- Stat 1 -->
         <div class="col-12 col-sm-6 col-lg-3">
-          <div class="stat-item">
+          <div class="stat-item border-end">
             <i class="bi bi-people-fill stat-icon mb-2"></i>
             <h3 class="stat-number">+10.000</h3>
             <p class="stat-label mb-0">Usuarios activos</p>
@@ -243,7 +244,7 @@
 
         <!-- Stat 2 -->
         <div class="col-12 col-sm-6 col-lg-3">
-          <div class="stat-item">
+          <div class="stat-item border-end stat-mid">
             <i class="bi bi-clock-history stat-icon mb-2"></i>
             <h3 class="stat-number">24/7</h3>
             <p class="stat-label mb-0">Disponibilidad</p>
@@ -252,7 +253,7 @@
 
         <!-- Stat 3 -->
         <div class="col-12 col-sm-6 col-lg-3">
-          <div class="stat-item">
+          <div class="stat-item border-end">
             <i class="bi bi-shield-fill-check stat-icon mb-2"></i>
             <h3 class="stat-number">100%</h3>
             <p class="stat-label mb-0">Seguridad garantizada</p>
@@ -261,7 +262,7 @@
 
         <!-- Stat 4 -->
         <div class="col-12 col-sm-6 col-lg-3">
-          <div class="stat-item stat-item--last">
+          <div class="stat-item border-bottom-0">
             <i class="bi bi-speedometer stat-icon mb-2"></i>
             <h3 class="stat-number">300%</h3>
             <p class="stat-label mb-0">Más rápido que el papel</p>
@@ -375,20 +376,20 @@
     </div>
   </section>
 
-  <!-- ===================== CTA / INDECISO ===================== -->
-  <section id="indeciso" class="cta-section py-5" aria-labelledby="cta-titulo">
+  <!-- ===================== Call 2 action / INDECISO ===================== -->
+  <section id="indeciso" class="c2a-section py-5" aria-labelledby="cta-titulo">
     <div class="container-xxl">
       <div class="row align-items-center gy-4">
 
         <div class="col-12 col-lg-8 text-center text-lg-start">
-          <h2 id="cta-titulo" class="cta-title mb-2">¿Aún no te decides?</h2>
-          <p class="cta-subtitle mb-0">
+          <h2 id="c2a-titulo" class="c2a-title mb-2">¿Aún no te decides?</h2>
+          <p class="c2a-subtitle mb-0">
             Prueba la versión de demostración, totalmente gratis y sin necesidad de registrarte.
           </p>
         </div>
 
         <div class="col-12 col-lg-4 d-flex justify-content-center justify-content-lg-end">
-          <a class="btn btn-cta-light btn-lg px-5 py-3" href="seccion/IngresoGasto.html">
+          <a class="btn btn-c2a-light btn-lg px-5 py-3" href="seccion/IngresoGasto.html">
             <i class="bi bi-play-circle-fill me-2"></i>Demo gratuita
           </a>
         </div>
