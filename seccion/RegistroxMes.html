@@ -27,30 +27,35 @@
 
       </div>
     </div>
-
-    </div>
   </nav>
   <main>
-    <section class="container my-4">
-      <div>
-        <table class="table table-striped">
-          <thead>
-            <tr class="Meses">
-              <th scope="col"></th>
-              <th scope="col">Mes Anterior</th>
-              <th scope="col">Mes Actual</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="Gasto">
-              <th scope="row">$</th>
-              <td>900.000 $</td>
-              <td>800.000 $</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
+<section class="container text-center mt-5">
+  <div class="table-responsive shadow-sm rounded border">
+    <table class="table table-striped align-middle mb-0">
+      <thead class="table-dark"> <tr class="Meses">
+          <th scope="col" style="width: 50px;"></th> <th scope="col">Mes Anterior</th> <th scope="col">Mes Actual</th>   </tr>
+      </thead>
+      <tbody>
+        <tr class="Gasto">
+          <th scope="row" class="text-muted">$</th>
+          <td class="fw-medium">900.000 $</td>
+          <td class="fw-bold ">800.000 $</td> </tr>
+      </tbody>
+      <tbody>
+        <tr class="Gasto">
+          <th scope="row" class="text-muted">%</th>
+          <td class="fw-medium">50%</td>
+          <td class="fw-bold ">-11,11%</td> </tr>
+      </tbody>
+      <tbody>
+        <tr class="Gasto">
+          <th scope="row" class="text-muted">Clasificacion</th>
+          <td class="fw-medium" style="background-color: rgb(255, 204, 0);">Debes mejorar para el proximo mes</td>
+          <td class="fw-bold" style="background-color: green;">Estas mejorando</td> </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
