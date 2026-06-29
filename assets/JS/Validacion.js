@@ -30,11 +30,8 @@ if (formulario2) {
         let contraseña = datos2.get("Contraseña");
         let confirmacion = datos2.get("Confirmacion");
         const mensaje="Registro exitoso"
-    if (nombre==""|| apellido==""|| email==""|| contraseña=="" || confirmacion==""){
-        alert("Tiene que completar todos los campos")
     
-    }
-    else if(contraseña!==confirmacion){
+    if(contraseña!==confirmacion){
         alert("Las contraseñas no coinciden")
     }
     else{
@@ -52,13 +49,9 @@ if (formulario3){
         let email2=datos3.get('Email2')
         let contraseña2=datos3.get('Contraseña2')
         const mensaje=`Usuario logueado`
-        if(email2===""||contraseña2===""){
-            alert("Complete los campos")
-        }
-        else{
-            alert(mensaje)
-            formulario3.reset()
-            window.location.href="../seccion/IngresoGasto.html"
-        }
+        alert(mensaje)
+        formulario3.reset()
+        window.location.href="../seccion/IngresoGasto.html"
+        
     })
 }
