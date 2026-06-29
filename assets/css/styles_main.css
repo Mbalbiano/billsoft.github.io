@@ -454,7 +454,11 @@ p, span, a, li, label, small, .card-text, .accordion-body {
   .tabla-mobile {
     margin-bottom: 250px !important;
   }
+  .color-block {
+  border: none !important;
+  }
 }
+
 
 /* -- Nav Ingreso Gasto -- /  */
 .avatar-usr {
@@ -509,6 +513,29 @@ p, span, a, li, label, small, .card-text, .accordion-body {
 .otros {
   background-color: #3c3c3c;
 }
+
+/* -- LOGIN / REGISTRO -- */
+.bg-img-cta {
+  filter: brightness(80%);
+}
+
+.color-block {
+  background-color: var(--color-primary);
+  border-left: 4px solid var(--color-accent);
+  background-image:
+    radial-gradient(ellipse at 80% 100%, rgba(212, 175, 55, 0.041) 0%, transparent 100%),
+    radial-gradient(ellipse at 20% 40%, #1f4061e3 0%, transparent 80%);
+}
+
+.txt-cta {
+  color: var(--color-secondary);
+  font-size: 3.5rem;
+}
+
+input:focus {
+  border: 3px solid var(--color-accent-dark) !important;
+}
+
 
 /* -- ANIMACIONES -- */
 /* Libreria usada: "Animate.css" (https://github.com/animate-css/animate.css), 
