@@ -34,6 +34,9 @@
   --radius-card:  0.75rem;
 
   --section-py:   5rem;
+
+  /* Tablas */
+  --table-primary-table-color: var(--color-accent);
 }
 
 /* -- TIPOGRAFIA -- */
@@ -438,7 +441,7 @@ p, span, a, li, label, small, .card-text, .accordion-body {
   }
 }
 
-/* Nav Ingreso Gasto /  */
+/* -- Nav Ingreso Gasto -- /  */
 .avatar-usr {
   width: 40px;
   height: 40px;
@@ -452,6 +455,48 @@ p, span, a, li, label, small, .card-text, .accordion-body {
 
 .usr:hover {
   color: var(--color-accent);
+}
+
+/* -- Tabla ingreso gasto -- */
+.tabla-gasto {
+  --bs-table-bg: var(--color-primary );
+  --bs-table-color: white;
+}
+
+.servicio {
+  background-color: grey;
+}
+
+.alquiler {
+  background-color: grey;
+}
+
+.comida {
+  background-color: grey;
+}
+
+.calzado {
+  background-color: grey;
+}
+
+.ropa {
+  background-color: grey;
+}
+
+.vehiculo {
+ background-color: grey; 
+}
+
+.suscripciones {
+  background-color: grey;
+}
+
+.seguros {
+  background-color: grey;
+}
+
+.otros {
+  background-color: grey;
 }
 
 /* -- ANIMACIONES -- */
