@@ -10,7 +10,7 @@ if (formulario) {
         let Categoria = datos.get("Categoria");
         let PrecioCompra = datos.get("PrecioCompra");
 
-        let mensaje = `La compra que hizo fue ${NombreCompra}, la categoría fue ${Categoria} y gastó ${PrecioCompra} pesos`;
+        let mensaje = La compra que hizo fue ${NombreCompra}, la categoría fue ${Categoria} y gastó ${PrecioCompra} pesos;
 
         alert(mensaje);
     });
@@ -48,7 +48,7 @@ if (formulario3){
         const datos3= new FormData(formulario3)
         let email2=datos3.get('Email2')
         let contraseña2=datos3.get('Contraseña2')
-        const mensaje=`Usuario logueado`
+        const mensaje=Usuario logueado
         alert(mensaje)
         formulario3.reset()
         window.location.href="../seccion/IngresoGasto.html"
