@@ -8,3 +8,13 @@ Deploy con Github pages
 Repositorio de Github 
 =================
 - https://github.com/Mbalbiano/billsoft.github.io
+
+Wireframe:
+Iniciar sesion: https://wireframe.cc/LPpUbu
+Registro: https://wireframe.cc/VFX8HI
+Funcion principal: https://wireframe.cc/gC8id4
+Gasto por mes: https://wireframe.cc/otOHI2
+
+Figma:
+https://www.figma.com/design/CV3LEwmaIzBDMDlZfz1ekF/Billsoft?node-id=0-1&t=E5Tvjfe0EgEJCSmX-1
+
